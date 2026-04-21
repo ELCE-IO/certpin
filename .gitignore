@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# SwiftPM
+ios/.build/
+
+# Rust
+rust/target/
+rust/Cargo.lock
+
+# CMake
+cpp/build/
