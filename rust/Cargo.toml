@@ -1,0 +1,11 @@
+[package]
+name = "certpin-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "CERTPIN RFC helper SDK for strict record parsing and pin validation"
+license = "MIT"
+
+[dependencies]
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+sha2 = "0.10"
